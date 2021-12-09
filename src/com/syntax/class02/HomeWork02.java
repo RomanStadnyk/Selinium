@@ -20,7 +20,7 @@ public class HomeWork02 {
         driver.findElement(By.name("birthday_month")).sendKeys("Sep");
         driver.findElement(By.name("birthday_day")).sendKeys("27");
         driver.findElement(By.name("birthday_year")).sendKeys("1983");
-        driver.quit();
+       // driver.quit();
 
     }
 }
